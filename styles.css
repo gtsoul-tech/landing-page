@@ -61,3 +61,40 @@ img {
     padding-right: 20px;
     border: none
 }
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.information-header{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 20px;
+}
+.card{
+    display: flex;
+    gap: 20px;
+}
+.small-card{
+    gap:10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.small-card img, .small-card div{
+    flex:1 1 0;
+}
+.small-card div{
+    text-align: center;
+}
+.small-card img{
+    width: 150px;
+    border-radius: 20px;
+    border-color: #3882F6;
+    border-style: solid;
+}
