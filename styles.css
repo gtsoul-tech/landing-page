@@ -24,3 +24,40 @@ body{
     text-decoration: none;
     font-size: 18px;
 }
+
+.description{
+    padding: 60px;
+    align-self: center;
+    display: flex;
+    background-color: #1f2937;
+}
+.hero-main-text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+.hero-secondary-text{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.description img{
+    align-self: flex-start;
+    flex: 1;
+}
+.right-description{
+    flex: 1;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+.right-description button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none
+}
