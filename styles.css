@@ -1,4 +1,26 @@
 body{
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.right-links{
+    align-self: center;
+}
+.right-links a{
+    padding: 5px;
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
 }
