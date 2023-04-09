@@ -27,7 +27,7 @@ body{
 
 .description{
     padding: 60px;
-    align-self: center;
+    
     display: flex;
     background-color: #1f2937;
 }
@@ -43,6 +43,8 @@ body{
 .description img{
     align-self: flex-start;
     flex: 1;
+    max-width: 400px;
+    max-height: 400px;
 }
 .right-description{
     flex: 1;
@@ -97,4 +99,48 @@ img {
     border-radius: 20px;
     border-color: #3882F6;
     border-style: solid;
+}
+
+.quote{
+    padding: 60px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote .signature{
+    font-size: 25px;
+    color: #1F2937;
+    font-weight: 800;
+    text-align: right;
+}
+.blue_card{
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 30px;
+    justify-content: space-around;
+    color: white;
+}
+.blue_card .card_text .title{
+    font-weight: 800;
+    font-size: 32px;
+}
+.blue_card button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
