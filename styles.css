@@ -27,9 +27,9 @@ body{
 
 .description{
     padding: 60px;
-    
     display: flex;
     background-color: #1f2937;
+    justify-content: space-around;
 }
 .hero-main-text{
     color: #F9FAF8;
@@ -41,15 +41,11 @@ body{
     font-size: 18px;
 }
 .description img{
-    align-self: flex-start;
     flex: 1;
+    padding: 10px;
     max-width: 400px;
     max-height: 400px;
 }
-.right-description{
-    flex: 1;
-}
-
 img {
     width: 200px;
     height: 200px;
